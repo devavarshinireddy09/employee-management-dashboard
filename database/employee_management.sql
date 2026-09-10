@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS employees (
         ON UPDATE CURRENT_TIMESTAMP
 );
 
-INSERT INTO employees
+INSERT IGNORE INTO employees
 (
     first_name,
     last_name,
